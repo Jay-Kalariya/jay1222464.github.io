@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="get" action="URL.HTML">
+        <fieldset>
+            <legend align="left">Sign-Up</legend>
+            <label>Username:<input type="name" placeholder="Enter name" name="username"></label>
+            <br><br>
+            <label>Password:<input type="password" placeholder="Enter Password" name="password" maxlength="8"></label><br>
+            <br>
+            <label> Confirm Password:<input type="password" placeholder="Enter Password" name="password" maxlength="8"></label><br>
+            <br>
+            <label>Gender:<input type="radio" name="gender">Male</label>
+            <label><input type="radio" name="gender">Female</label><br/><br/>
+            <label>Hobby:<input type="checkbox">singing</label>
+            <label><input type="checkbox">Dancing</label>
+            <label><input type="checkbox">Playing</label>
+            <label><input type="checkbox">Reading</label><br/><br/>
+            <label>Country:</label>
+            <select>
+                <option value="" hidden>--select country--</option>
+                <optgroup label="select"><br>
+                <option>India</option>
+                <option>China</option>
+                <option>US</option>
+                <option>Germany</option>
+                </optgroup>
+                </select><br><br>            
+            <input type="submit"><tab></tab>
+            <input type="reset"><tab></tab>
+        </fieldset>
+    </form>
+</body>
+</html>
